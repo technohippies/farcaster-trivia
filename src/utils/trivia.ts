@@ -2,7 +2,7 @@ import axios from 'axios';
 import type { TriviaQuestion } from '~/types/trivia';
 
 const IPFS_GATEWAY = process.env.NEXT_PUBLIC_IPFS_GATEWAY || 'https://premium.w3ipfs.storage/ipfs';
-const QUESTIONS_CID = 'bafkreihlkxbsim7iagve2cufph62v2tpv6pnu4betwqmssgzxjbqkg5oku';
+const QUESTIONS_CID = 'bafkreic5a2wb4ahko3nmlljrfbbxibnl4zv3da2ka5ihodlkshmvu3adsi';
 
 export async function fetchQuestion(id: string): Promise<TriviaQuestion> {
   try {

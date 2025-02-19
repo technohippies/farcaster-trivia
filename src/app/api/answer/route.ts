@@ -25,11 +25,11 @@ export async function POST(req: Request) {
           <meta property="og:image" content="${isCorrect ? question.successImageUrl : question.failureImageUrl}" />
           <meta property="fc:frame" content="vNext" />
           <meta property="fc:frame:image" content="${isCorrect ? question.successImageUrl : question.failureImageUrl}" />
-          <meta property="fc:frame:button:1" content="Next Question" />
+          <meta property="fc:frame:button:1" content="Next Question →" />
           <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_HOST}/api/frame?id=${nextId}" />
         </head>
         <body>
-          <h1>${isCorrect ? 'Correct!' : 'Wrong Answer!'}</h1>
+          <h1>${isCorrect ? '¡Correcto!' : '¡Incorrecto!'}</h1>
           <p>${question.explanation}</p>
         </body>
       </html>`,

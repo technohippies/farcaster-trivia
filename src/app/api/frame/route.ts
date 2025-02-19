@@ -18,14 +18,14 @@ export async function GET(req: Request) {
           <meta property="og:image" content="${question.imageUrl}" />
           <meta property="fc:frame" content="vNext" />
           <meta property="fc:frame:image" content="${question.imageUrl}" />
-          <meta property="fc:frame:button:1" content="A" />
-          <meta property="fc:frame:button:2" content="B" />
-          <meta property="fc:frame:button:3" content="C" />
-          <meta property="fc:frame:button:4" content="D" />
+          <meta property="fc:frame:button:1" content="${question.options[0]}" />
+          <meta property="fc:frame:button:2" content="${question.options[1]}" />
+          <meta property="fc:frame:button:3" content="${question.options[2]}" />
+          <meta property="fc:frame:button:4" content="${question.options[3]}" />
           <meta property="fc:frame:post_url" content="${process.env.NEXT_PUBLIC_HOST}/api/answer?id=${id}" />
         </head>
         <body>
-          <h1>Web3 Trivia Game</h1>
+          <h1>${question.question}</h1>
           <p>View this frame on Warpcast!</p>
         </body>
       </html>`,
