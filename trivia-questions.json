@@ -1,0 +1,21 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the native token of Farcaster?",
+      "imageUrl": "https://premium.w3ipfs.storage/ipfs/bafkreifzxz2tmeafi5omxrc2htcjfmzg7gveot5uewfrqkwgc2lxcpyaza",
+      "successImageUrl": "https://premium.w3ipfs.storage/ipfs/bafkreic7rmxo5jaffspd27krdq5igdtg5zox7leqs7gjsu5cl52rc5ubci",
+      "failureImageUrl": "https://premium.w3ipfs.storage/ipfs/bafkreihjaepully7jbf6pxgv3lazekbqhmdxrwhn6bmx4yb3xhcegt27je",
+      "options": [
+        "WARP",
+        "CAST",
+        "FAR",
+        "None - Farcaster is protocol-agnostic"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Farcaster is a protocol-agnostic social network!"
+    }
+  ],
+  "currentQuestionId": "q1",
+  "nextQuestionId": "q2"
+} 

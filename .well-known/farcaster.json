@@ -1,0 +1,9 @@
+{
+  "frame": {
+    "version": "1",
+    "name": "Farcaster Trivia",
+    "imageUrl": "https://your-domain.com/trivia-preview.png",
+    "buttonTitle": "Play Trivia",
+    "homeUrl": "https://your-domain.com/trivia"
+  }
+} 

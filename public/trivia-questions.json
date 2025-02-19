@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "question": "What was the first blockchain-based social protocol?",
+    "options": [
+      "Lens Protocol",
+      "Farcaster",
+      "DeSo",
+      "Nostr"
+    ],
+    "correctAnswer": 2,
+    "explanation": "DeSo (Decentralized Social) launched in 2021 as the first purpose-built blockchain for social media, originally called BitClout.",
+    "imageUrl": "https://premium.w3ipfs.storage/ipfs/bafkreifzxz2tmeafi5omxrc2htcjfmzg7gveot5uewfrqkwgc2lxcpyaza",
+    "successImageUrl": "https://premium.w3ipfs.storage/ipfs/bafkreifzxz2tmeafi5omxrc2htcjfmzg7gveot5uewfrqkwgc2lxcpyaza",
+    "failureImageUrl": "https://premium.w3ipfs.storage/ipfs/bafkreifzxz2tmeafi5omxrc2htcjfmzg7gveot5uewfrqkwgc2lxcpyaza"
+  }
+] 
